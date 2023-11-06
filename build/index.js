@@ -4,6 +4,8 @@ const menuIcon = document.getElementById("menu-icon");
 console.log(menu);
 console.log(menuIcon);
 
+// Comment added
+
 menuIcon.addEventListener("click", () => {
 	menu.classList.toggle("-top-96");
 	menu.classList.toggle("top-20");
